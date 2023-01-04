@@ -1,0 +1,10 @@
+{
+    "domain": "hitron_coda_3680",
+    "name": "Hitron CODA 3680",
+    "documentation": "https://github.com/yassineselmi/homeassistant-azure-tts",
+    "issue_tracker": "https://github.com/yassineselmi/homeassistant-azure-tts/issues",
+    "codeowners": [
+      "@yassineselmi"
+    ],
+   "iot_class": "local_polling"
+  }
