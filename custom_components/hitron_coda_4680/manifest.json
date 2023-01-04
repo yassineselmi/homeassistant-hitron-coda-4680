@@ -3,8 +3,9 @@
     "name": "Hitron CODA 4680",
     "documentation": "https://github.com/yassineselmi/homeassistant-hitron-coda-4680",
     "issue_tracker": "https://github.com/yassineselmi/homeassistant-hitron-coda-4680/issues",
+    "version": "0.2.0",
     "codeowners": [
       "@yassineselmi"
     ],
    "iot_class": "local_polling"
-  }
+}
