@@ -3,7 +3,7 @@
 # Hitron Coda 4680 Router: Presence Detection Integration for Home Assistant
 An integration that offers presence detection by examining devices connected to a Hitron Coda 4680 Router.
 
-The main reason behind this custom integration is to extend the out-of-the-box integration (Rogers Hitron Coda)[https://www.home-assistant.io/integrations/hitron_coda/] which does not support new routers like the Hitron Coda 4680
+The main reason behind this custom integration is to extend the out-of-the-box integration [Rogers Hitron Coda](https://www.home-assistant.io/integrations/hitron_coda/) which does not support new routers like the Hitron Coda 4680
 
 
 ## Basic Configuration

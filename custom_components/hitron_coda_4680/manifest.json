@@ -1,8 +1,8 @@
 {
     "domain": "hitron_coda_4680",
     "name": "Hitron CODA 4680",
-    "documentation": "https://github.com/yassineselmi/homeassistant-azure-tts",
-    "issue_tracker": "https://github.com/yassineselmi/homeassistant-azure-tts/issues",
+    "documentation": "https://github.com/yassineselmi/homeassistant-hitron-coda-4680",
+    "issue_tracker": "https://github.com/yassineselmi/homeassistant-hitron-coda-4680/issues",
     "codeowners": [
       "@yassineselmi"
     ],
