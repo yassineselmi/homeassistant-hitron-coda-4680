@@ -32,9 +32,9 @@ PLATFORM_SCHEMA = PARENT_PLATFORM_SCHEMA.extend(
 
 def get_scanner(
     _hass: HomeAssistant, config: ConfigType
-) -> HitronCoda3860DeviceScanner | None:
-    """Validate the configuration and return a Hitron CODA-4860 scanner."""
-    scanner = HitronCoda3860DeviceScanner(config[DOMAIN])
+) -> HitronCoda4680DeviceScanner | None:
+    """Validate the configuration and return a Hitron CODA-4680 scanner."""
+    scanner = HitronCoda4680DeviceScanner(config[DOMAIN])
 
     return scanner if scanner.success_init else None
 
@@ -42,7 +42,7 @@ def get_scanner(
 Device = namedtuple("Device", ["mac", "name"])
 
 
-class HitronCoda3860DeviceScanner(DeviceScanner):
+class HitronCoda4680DeviceScanner(DeviceScanner):
     """This class scans for devices using the CODA's web interface."""
 
     def __init__(self, config):
