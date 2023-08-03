@@ -50,7 +50,7 @@ class HitronCoda4680DeviceScanner(DeviceScanner):
         self.last_results = []
         host = config[CONF_HOST]
         self._loginurl = f"http://{host}/1/Device/Users/Login"
-        self._url = f"http://{host}/1/Device/Hosts"
+        self._url = f"http://{host}/1/Device/WiFi/Client"
 
         self._username = config.get(CONF_USERNAME)
         self._password = config.get(CONF_PASSWORD)
@@ -119,8 +119,8 @@ class HitronCoda4680DeviceScanner(DeviceScanner):
 
         # parsing response
         for info in result["Hosts_List"]:
-            mac = info["macAddr"]
-            name = info["hostName"]
+            mac = info["mac"]
+            name = info["hostname"]
             # No address = no item :)
             if mac is None:
                 continue
